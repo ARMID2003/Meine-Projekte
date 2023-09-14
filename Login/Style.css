@@ -1,0 +1,104 @@
+@import url();
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background-color: #090909;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.form-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+}
+
+.form-box {
+    z-index: 999;
+    background-color: #fff;
+    box-shadow: 0 5px 25px rgb(0 0 0 /15%);
+    width: 350px;
+    padding: 50px 40px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.form-box h2{
+    font-size: 2rem;
+    margin-bottom: 40px;
+    font-weight: 700;
+}
+
+.form-box .field{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid #eee;
+    margin-bottom: 25px;
+}
+
+.form-box .field input{
+ border: none;
+ outline: none;
+ background: none;
+ width: 100%;
+ font-size: 1rem;
+ padding-bottom: 5px;
+}
+
+.form-box .field i{
+    color: #828da0;
+    font-size: 1.3em;
+    margin-right: 10px;
+    padding-bottom: 5px;
+}
+
+::placeholder {
+    color: #828da0;
+    font-size: 0.85em;
+}
+
+.eye-btn {
+    cursor: pointer;
+}
+
+.eye-btn i:hover{
+    color: #0065ff;
+    transition: 0.3s ease;
+}
+
+.forgot-link{
+    text-align: right;
+    transform: translate(10px);
+}
+
+.forgot-link a {
+    color: #0065ff;
+    font-size: 0.8em;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.submit-btn{
+    background-color: #0065ff;
+    color: #fff;
+    border: none;
+    outline: none;
+    width: 120px;
+    padding: 10px 30px;
+    border-radius: 10px;
+    font-size: 0.85em;
+    font-weight: 500;
+    margin-top: 5px;
+    cursor: pointer;
+}
