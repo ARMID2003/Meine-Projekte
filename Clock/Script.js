@@ -15,7 +15,7 @@ if (hrs>12) {
     Session.innerHTML='AM'
 }
 
-document.getElementById('Stunde').innerHTML=hrs + 1
+document.getElementById('Stunde').innerHTML=hrs
 document.getElementById('Minute').innerHTML=mins
 document.getElementById('Sekunde').innerHTML=secs
 }
